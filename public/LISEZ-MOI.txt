@@ -1,0 +1,4 @@
+Place ta photo de profil dans ce dossier et nomme-la : photo.jpg
+(format carré de préférence, 800 x 800 px minimum).
+Si le fichier est absent, le site affiche une pastille avec ton initiale.
+Pour un autre nom ou format (png, webp), change "photo" dans src/data/profile.js.

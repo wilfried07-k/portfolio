@@ -1,0 +1,141 @@
+// Pour ajouter un projet : copiez un bloc et remplacez le contenu.
+// Les textes existent en français (fr) et en anglais (en).
+// "apk"  : lien de téléchargement de l'APK (GitHub Releases, Google Drive...).
+// "code" : lien GitHub (uniquement si le dépôt est public).
+// "image" : capture d'écran optionnelle (ex. "/projets/gaz.png", à mettre dans public/).
+// "colors" et "initials" servent de vignette quand il n'y a pas d'image.
+// Laissez "" tant que le lien n'existe pas : le bouton n'apparaît pas.
+export const projects = [
+  {
+    id: "gazexpress",
+    title: "GazExpress",
+    initials: "GX",
+    colors: ["#1d4ed8", "#0ea5e9"],
+    status: { fr: "En développement", en: "In development" },
+    description: {
+      fr: "Application mobile de commande et de livraison de gaz à domicile au Cameroun : connexion par SMS, paiement mobile (MTN MoMo, Orange Money) et suivi du livreur en temps réel sur la carte.",
+      en: "Mobile app to order and get gas delivered at home in Cameroon: SMS login, mobile payment (MTN MoMo, Orange Money) and real-time courier tracking on a map.",
+    },
+    stack: ["Flutter", "Node.js", "Express", "MongoDB", "Socket.IO"],
+    apk: "",
+    code: "https://github.com/wilfried07-k/GazExpress",
+    demo: "",
+  },
+  {
+    id: "baron-prestige",
+    title: "Le Baron Prestige",
+    initials: "BP",
+    colors: ["#3b2a1a", "#b8862b"],
+    description: {
+      fr: "Application web complète pour un restaurant, avec un site public et un espace d'administration.",
+      en: "Full web application for a restaurant, with a public website and an admin back-office.",
+    },
+    stack: ["React", "Vite", "Tailwind", "Supabase"],
+    apk: "",
+    code: "",
+    demo: "",
+  },
+  {
+    id: "timetrack-parser",
+    title: "TimeTrack Parser",
+    initials: "TT",
+    colors: ["#0b6e5c", "#1f9fb5"],
+    status: { fr: "En développement", en: "In development" },
+    description: {
+      fr: "Application mobile Android développée avec React Native et Expo.",
+      en: "Android mobile app built with React Native and Expo.",
+    },
+    stack: ["React Native", "Expo", "Android"],
+    apk: "",
+    code: "",
+    demo: "",
+  },
+  {
+    id: "afrijob-connect",
+    title: "Afrijob Connect",
+    initials: "AJ",
+    colors: ["#d9602b", "#e8a33d"],
+    status: { fr: "En développement", en: "In development" },
+    description: {
+      fr: "Application mobile Android développée avec React Native et Expo.",
+      en: "Android mobile app built with React Native and Expo.",
+    },
+    stack: ["React Native", "Expo", "Android"],
+    apk: "",
+    code: "",
+    demo: "",
+  },
+  {
+    id: "projet-cnps",
+    title: "CNPS Order Manager",
+    initials: "CN",
+    colors: ["#334155", "#0ea5a4"],
+    status: { fr: "Projet de formation", en: "Training project" },
+    description: {
+      fr: "Plateforme de gestion de commandes pour la CNPS : une API REST sécurisée (JWT, documentation Swagger) et une application web en React.",
+      en: "Order management platform for the CNPS: a secured REST API (JWT, Swagger docs) and a React web application.",
+    },
+    stack: ["React", "TypeScript", "Tailwind", "Node.js", "Express", "PostgreSQL"],
+    apk: "",
+    code: "https://github.com/wilfried07-k/projet-CNPS",
+    demo: "",
+  },
+  {
+    id: "revise-ai-coach",
+    title: "Revise AI Coach",
+    initials: "RA",
+    colors: ["#6d28d9", "#c026d3"],
+    description: {
+      fr: "Projet d'assistant de révision basé sur l'IA. Description détaillée à venir.",
+      en: "AI-based revision assistant project. Detailed description coming soon.",
+    },
+    stack: ["IA"],
+    apk: "",
+    code: "",
+    demo: "",
+  },
+  {
+    id: "device-tracker",
+    title: "Device Tracker",
+    initials: "DT",
+    colors: ["#0f766e", "#65a30d"],
+    description: {
+      fr: "Projet de suivi d'appareils. Description détaillée à venir.",
+      en: "Device tracking project. Detailed description coming soon.",
+    },
+    stack: ["Suivi"],
+    apk: "",
+    code: "",
+    demo: "",
+  },
+  {
+    id: "wedding-invitation",
+    title: "Wedding Invitation",
+    initials: "WI",
+    colors: ["#be185d", "#f59e0b"],
+    status: { fr: "Projet occasionnel", en: "Side project" },
+    description: {
+      fr: "Site web d'invitation de mariage.",
+      en: "Wedding invitation website.",
+    },
+    stack: ["Web"],
+    apk: "",
+    code: "https://github.com/joelnkengafac/weedingmariage",
+    demo: "",
+  },
+  {
+    id: "openfinance",
+    title: "OpenFINANCE",
+    initials: "OF",
+    colors: ["#0f172a", "#2563eb"],
+    status: { fr: "Fork open source", en: "Open-source fork" },
+    description: {
+      fr: "Fork de la plateforme open source OpenBB, dédiée à la recherche d'investissement.",
+      en: "Fork of the open-source OpenBB platform, built for investment research.",
+    },
+    stack: ["Python", "OpenBB"],
+    apk: "",
+    code: "https://github.com/wilfried07-k/OpenFINANCE",
+    demo: "",
+  },
+];
